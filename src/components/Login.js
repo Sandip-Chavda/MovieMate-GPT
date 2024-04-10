@@ -85,6 +85,8 @@ const Login = () => {
         <h1 className="font-bold text-3xl py-2">
           {isSignInForm ? "Sign In" : "Sign Up"}
         </h1>
+        <p className="text-center">email:sandip123@gmail.com</p>
+        <p className="text-center">pass:Sandip1234</p>
         {!isSignInForm && (
           <input
             ref={username}
